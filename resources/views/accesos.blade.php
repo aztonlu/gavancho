@@ -29,7 +29,7 @@
 <body id="app-layout">
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header" >
 
                 <!-- Collapsed Hamburger -->
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
@@ -41,13 +41,13 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('home') }}">
-                    <img src="img/hospital.png" width="30" height="30">
+                    <img src="img/logogavancho.png" width="220" height="60">
                 </a>
             </div>
 
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav" >
                     <li><a href="home">Filiación</a></li>
                     <li><a href="citas">Citas</a></li>
                     <li class=""><a href="busquedaRapida">Consulta del día</a></li>
